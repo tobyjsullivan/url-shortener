@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET        /:shortUrl           controllers.Application.redirect(shortUrl: String)
+POST        /urls               controllers.Application.shorten
+
